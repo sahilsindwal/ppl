@@ -1,0 +1,88 @@
+
+.sindwal {
+    border: 2px solid red;
+    height: 100%;
+    width: 100vw;
+    position: fixed;
+    background-color: black;
+    z-index: 12;
+}
+
+video{
+    display: block;
+    padding: 2rem;
+}
+.cvPermissions {
+    /* display: none; */
+    text-align: center;
+    background-color: rgb(240, 201, 151);
+    width: fit-content;
+    height: fit-content;
+    padding: 4rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 1rem;
+    opacity: 0.9;
+    transition: all 1s ease-in 2s;
+    z-index: 13;
+}
+
+.cvico {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 4rem;
+    padding: 0.2rem 0.5rem;
+}
+
+.cvPermissions h4 {
+
+    color: rgb(70, 42, 5);
+    font-size: 2rem;
+    text-transform: capitalize;
+    padding: 1rem;
+
+}
+
+#token::-webkit-outer-spin-button,
+#token::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.cvPermissions #token {
+    padding: 1.3rem;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    background-color: rgb(240, 187, 117);
+}
+
+.cvPermissions #token:hover,
+.cvPermissions button:hover {
+    background-color: rgb(236, 202, 158);
+}
+
+.cvPermissions button {
+    color: rgb(70, 42, 5);
+    background-color: rgb(233, 187, 126);
+    border: none;
+    outline: none;
+    padding: 1.3rem;
+    border-radius: 1rem;
+
+}
+
+#cvbtn {
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: rgb(36, 150, 36);
+    color: black;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: none;
+}
